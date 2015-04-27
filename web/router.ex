@@ -18,6 +18,10 @@ defmodule PhoenixExrethinkdbChat.Router do
     get "/", PageController, :index
   end
 
+  socket "/ws", PhoenixExrethinkdbChat do
+    channel "rooms:*", RoomChannel
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", PhoenixExrethinkdbChat do
   #   pipe_through :api
