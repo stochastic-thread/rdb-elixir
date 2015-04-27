@@ -1,0 +1,14 @@
+2015-04-27T13:14:20.653246000 0.004801s notice: Recursively removing directory /Users/arthur/Code/elixir/web_apps/rdb-elixir/rethinkdb_data/tmp
+2015-04-27T13:14:20.654874000 0.006434s notice: Initializing directory /Users/arthur/Code/elixir/web_apps/rdb-elixir/rethinkdb_data
+2015-04-27T13:14:20.655029000 0.006582s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/arthur/Code/elixir/web_apps/rdb-elixir/rethinkdb_data' did not already exist or is empty.)
+2015-04-27T13:14:20.655064000 0.006618s notice: Running rethinkdb 2.0.0-1 (CLANG 4.2 (clang-425.0.28))...
+2015-04-27T13:14:20.661157000 0.012712s notice: Running on Darwin 14.3.0 x86_64
+2015-04-27T13:14:20.661216000 0.012770s notice: Loading data from directory /Users/arthur/Code/elixir/web_apps/rdb-elixir/rethinkdb_data
+2015-04-27T13:14:20.883178000 0.234768s info: Automatically using cache size of 596 MB
+2015-04-27T13:14:20.883801000 0.235390s notice: Listening for intracluster connections on port 29015
+2015-04-27T13:14:20.884764000 0.236353s notice: Listening for client driver connections on port 28015
+2015-04-27T13:14:20.884955000 0.236545s notice: Listening for administrative HTTP connections on port 8080
+2015-04-27T13:14:20.884959000 0.236548s notice: Listening on addresses: 127.0.0.1, ::1
+2015-04-27T13:14:20.884965000 0.236555s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-04-27T13:14:20.884971000 0.236561s notice: Server ready, "colle_mac_1g7" 11838831-fc6e-447a-a210-f2bfc4f35300
+2015-04-27T13:14:20.969810000 0.321400s notice: A newer version of the RethinkDB server is available: 2.0.1. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.

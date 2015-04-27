@@ -27,7 +27,7 @@ defmodule PhoenixExrethinkdbChat.RoomChannel do
 
 	def handle_in("new:msg", msg, socket) do
 		q = Query.table("messages")
-		|> Query.insert(%{user: msg["user"], body: msg["body"]})
+			|> Query.insert(%{user: msg["user"], body: msg["body"]})
 		Repo.run(q)
 		{:reply, {:ok, msg["body"]}, assign(socket, :user, msg["user"])}
 	end

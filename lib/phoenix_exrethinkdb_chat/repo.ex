@@ -10,6 +10,4 @@ defmodule PhoenixExrethinkdbChat.Repo do
 			Exrethinkdb.run conn, query
 		end)
 	end
-
-	
 end

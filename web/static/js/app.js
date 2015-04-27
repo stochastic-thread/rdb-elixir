@@ -3,6 +3,7 @@ import {Socket, LongPoller} from "phoenix"
 class App {
 
   static init(){
+    // var socket  = new Socket("ws://" + location.host +  "/ws", {transport: Phoenix.LongPoller})
     var socket     = new Socket("ws://" + location.host +  "/ws")
     socket.connect()
     var $status    = $("#status")
